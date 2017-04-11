@@ -2558,7 +2558,7 @@ ul:not(.browser-default) li {
 }
 
 a {
-  color: #75D4F2;
+  color: #039be5;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2874,7 +2874,6 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   background-color: #ee6e73;
-
 }
 
 .page-footer .footer-copyright {
@@ -3377,7 +3376,8 @@ nav ul a span.badge {
 }
 
 .section {
-  
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .section.no-pad {
@@ -3396,7 +3396,6 @@ nav ul a span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  text-align: center;
 
 }
 
@@ -3536,7 +3535,6 @@ nav ul a span.badge {
 
 .row .col.s12 {
   width: 100%;
-
 }
 
 .row .col.offset-s1 {
@@ -4400,10 +4398,6 @@ html {
   }
 }
 
-body{
-  background-color: #DDE0DF;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
@@ -4414,7 +4408,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 4.2rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
   font-family: Pacifico;
@@ -4426,13 +4420,12 @@ h1 {
 
 h2 {
   font-size: 4.2rem;
-  line-height: 55%;
+  line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
   font-family: Pacifico;
   text-shadow: 2px 2px #600473;
   color: #009688;
   text-align: center;
-
 }
 
 h3 {
@@ -4448,7 +4441,7 @@ h4 {
 }
 
 h5 {
-  font-size: 40px;
+  font-size: 25px;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
   font-family: Pacifico;
@@ -4472,30 +4465,12 @@ small {
 }
 .bg {
     width: 100%;
-    height: 900px;
+    height: 2000px;
     z-index: -1;
     position: absolute;
-    top: 73%;
+    top: 75%;
     right: 25%;
 
-  }
-
-  .devImages{
-   font-family: Lobster;
-    color: white;
-    text-shadow: 1px 1px #600473;
-    display:inline;
-    margin:5px 20px;
-    padding:5px;
-    
-    
-  }
-
-
-  .devConnect{
-    text-align: center;
-    color: white;
-    display: inline-block;
   }
 
 .footer-copyright{
@@ -5940,8 +5915,7 @@ textarea.materialize-textarea {
   box-sizing: content-box;
   transition: all 0.3s;
   text-align: center;
-  color: #009688;
-  text-shadow: #600473;
+  color: #FFFFFF;
  
 }
 
