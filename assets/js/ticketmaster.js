@@ -21,11 +21,9 @@ $("#artist-search").submit(function(event) {
 			var i = 0;
 			console.log(json);
 			for (i = 0; i < 5; i++) {
-<<<<<<< HEAD
-				$("#ticket-results").append("<div class=event id=event-" + i + "><a href="+ json._embedded.events[i].url +"><h6>" + json._embedded.events[i].name + " " + json._embedded.events[i].dates.start.localDate + "</h6></a></div>");
-=======
+
 				$("#ticket-results").append("<div class=event id=event-" + i + "><a href=" + json._embedded.events[i].url + "><h6>" + json._embedded.events[i].name + "</h6></a><p> " + json._embedded.events[i]._embedded.venues[0].name + ": " + json._embedded.events[i].dates.start.localDate + "</p><p>" + json._embedded.events[i]._embedded.venues[0].city.name + "," + json._embedded.events[i]._embedded.venues[0].country.country + "</p></div>");
->>>>>>> cameron
+
               // Parse the response.
               // Do other things.
           }
