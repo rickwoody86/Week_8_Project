@@ -31,7 +31,7 @@ $(document).ready(function() {
         });
     };
 
-    $("#spotify-results").on('click', function(event) {
+    $("#spotify-result").on('click', function(event) {
         var target = event.target;
         if (target !== null && target.classList.contains('cover')) {
             if (target.classList.contains(playingCssClass)) {
