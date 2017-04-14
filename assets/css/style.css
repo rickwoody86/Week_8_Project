@@ -29,6 +29,10 @@ p {
     width: 100%;
   }
 
+#titles {
+  height:125px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -54,4 +58,5 @@ p {
 
 footer.page-footer {
   margin: 0;
+  text-align: center;
 }
