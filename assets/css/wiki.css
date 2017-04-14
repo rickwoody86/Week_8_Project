@@ -1,0 +1,6 @@
+#wiki-result {
+	color: white;
+	max-height: 200px;
+	background-color: rbga(0,150,156,1);
+    overflow: scroll;
+}
